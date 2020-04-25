@@ -20,9 +20,9 @@ module.exports = {
   deploy : {
     production : {
       user : 'node',
-      host : '212.83.163.1',
+      host : '186.33.93.147',
       ref  : 'origin/master',
-      repo : 'GIT_REPOSITORY',
+      repo : 'garibaldy@github.com/API.git',
       path : '/var/www/production',
  
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
