@@ -20,7 +20,7 @@ module.exports = {
   deploy : {
     production : {
       user : 'node',
-      host : '186.33.93.147',
+      host : 'agile-bayou-34724.herokuapp.com',
       ref  : 'origin/master',
       repo : 'garibaldy@github.com/API.git',
       path : '/var/www/production',
